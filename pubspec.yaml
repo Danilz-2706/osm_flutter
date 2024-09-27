@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_osm_interface:
+    git:
+      url: https://github.com/Danilz-2706/flutter_osm_interface.git
   plugin_platform_interface: ^2.1.2
   flutter_plugin_android_lifecycle: ^2.0.17
   permission_handler: ^11.0.1
@@ -20,8 +22,6 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^4.0.0
-  flutter_osm_interface:
-    path: flutter_osm_interface/
   flutter_test:
     sdk: flutter
 
